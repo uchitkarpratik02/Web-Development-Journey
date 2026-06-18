@@ -1,90 +1,59 @@
-Become a MERN Stack Developer and get Internship/Job.
-# 🚀 Web Development Journey
+# Web Development Journey 🚀
 
-Hi, I'm **Pratik Uchitkar**.
+Hi, I'm Pratik Uchitkar.
 
-I am currently learning **Web Development (MERN Stack)** with the goal of getting an Internship and a Developer Job.
+I am currently learning Full Stack Web Development (MERN Stack) and documenting my daily progress in this repository.
 
-This repository contains my daily practice, exercises, and projects.
+## Goals
 
----
+* Learn MERN Stack
+* Build Real-World Projects
+* Get an Internship
+* Become Job Ready
 
-## 📅 Progress Tracker
+## Progress
 
-### HTML
+### Day 1
 
-* [x] Day 1 - HTML Introduction, Elements, Tags, Headings, Paragraphs, Boilerplate
-* [x] Day 2 - Lists, Links, Images, Attributes, Formatting Tags
-* [x] Day 3 - Div, Span, HR, Sub & Sup, Semantic HTML, HTML Entities
-* [ ] Day 4 - Tables & Forms
-* [ ] Day 5
-* [ ] Day 6
-* [ ] Day 7
+* HTML Introduction
+* HTML Elements & Tags
+* Headings
+* Paragraphs
+* Boilerplate Code
 
----
+### Day 2
 
-## 🛠 Skills Learning Roadmap
+* Ordered & Unordered Lists
+* Anchor Tags
+* Image Tags
+* Attributes
+* Comments
+* Text Formatting
 
-### Frontend
+### Day 3
+
+* Inline vs Block Elements
+* Div & Span
+* HR Tag
+* Sub & Sup Tags
+* Semantic HTML
+* HTML Entities
+* Emmet
+* Semantic Tags
+
+## Tech Stack
 
 * HTML
-* CSS
-* JavaScript
-* React.js
+* CSS (Learning)
+* JavaScript (Upcoming)
+* React (Upcoming)
+* Node.js (Upcoming)
+* MongoDB (Upcoming)
 
-### Backend
+## Connect With Me
 
-* Node.js
-* Express.js
-
-### Database
-
-* MongoDB
-
-### Other Tools
-
-* Git
-* GitHub
-* VS Code
+* GitHub: github.com/uchitkarpratik02
 
 ---
 
-## 📂 Projects
-
-### HTML Projects
-
-* Student Portfolio
-* Developer Portfolio
-* Personal Blog Page
-* Dream Company Page
-* Favorite Things Page
-
-More projects coming soon...
-
----
-
-## 🎯 Goal
-
-* Complete MERN Stack Development
-* Build Real-World Projects
-* Get Internship
-* Get Developer Job
-
----
-
-## 🔥 Current Streak
-
-* Day 1 ✅
-* Day 2 ✅
-* Day 3 ✅
-
-**Current WebDev Streak: 3 Days**
-
----
-
-## 📌 Connect With Me
-
-GitHub: https://github.com/uchitkarpratik02
-
-Learning in public and building projects every day 🚀
-
+Learning one day at a time. Consistency over perfection. 🔥
