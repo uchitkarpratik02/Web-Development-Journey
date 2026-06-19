@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Registration Form</title>
+</head>
+<body>
+    <h1>Online Registration Form</h1>
+    <form action="result.sql">
+        <span>
+            <label for="nam"></label>
+            <input type="text" id="nam" name="NAME" placeholder="First Name">
+            <label for="fath"></label>
+            <input type="text" id="fath" name="Father" placeholder="Father Name">
+            <label for="sur"></label>
+            <input type="text" id="sur" name="Sur" placeholder="Sur Name ">
+        </span>
+        
+        <div>
+            <label id="Sex"> Select Gender: </label>
+            <select name="Sex" Id="Sex"> Select Your Gender:
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+        </div>
+        <br>
+        <div> 
+            <input type ="checkbox" id="Con" name="condition"/>
+            <label for="Con">Term's & Condition</label>
+        </div>
+        <br>
+        <button type="submit">Registor</button>
+        
+
+    </form>
+</body>
+</html>
