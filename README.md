@@ -1,59 +1,161 @@
-# Web Development Journey 🚀
+# 🚀 Web Development Journey (MERN Stack)
 
-Hi, I'm Pratik Uchitkar.
+Welcome to my **Web Development Journey** repository!
 
-I am currently learning Full Stack Web Development (MERN Stack) and documenting my daily progress in this repository.
-
-## Goals
-
-* Learn MERN Stack
-* Build Real-World Projects
-* Get an Internship
-* Become Job Ready
-
-## Progress
-
-### Day 1
-
-* HTML Introduction
-* HTML Elements & Tags
-* Headings
-* Paragraphs
-* Boilerplate Code
-
-### Day 2
-
-* Ordered & Unordered Lists
-* Anchor Tags
-* Image Tags
-* Attributes
-* Comments
-* Text Formatting
-
-### Day 3
-
-* Inline vs Block Elements
-* Div & Span
-* HR Tag
-* Sub & Sup Tags
-* Semantic HTML
-* HTML Entities
-* Emmet
-* Semantic Tags
-
-## Tech Stack
-
-* HTML
-* CSS (Learning)
-* JavaScript (Upcoming)
-* React (Upcoming)
-* Node.js (Upcoming)
-* MongoDB (Upcoming)
-
-## Connect With Me
-
-* GitHub: github.com/uchitkarpratik02
+Hi, I'm **Pratik Uchitkar**. This repository documents my complete journey of becoming a **MERN Stack Developer**. Every day I learn new concepts, practice them by building projects, and upload my progress to GitHub.
 
 ---
 
-Learning one day at a time. Consistency over perfection. 🔥
+## 🎯 Goal
+
+- 💼 Get a Web Development Internship
+- 💻 Become a MERN Stack Developer
+- 🌐 Build Real-World Full Stack Projects
+- 📈 Improve Problem Solving Skills
+- 🚀 Get a Software Developer Job
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- HTML5
+- CSS3
+- JavaScript
+- React.js
+
+### Backend
+- Node.js
+- Express.js
+
+### Database
+- MongoDB
+
+### Tools
+- Git
+- GitHub
+- VS Code
+
+---
+
+# 📅 Learning Progress
+
+## HTML
+
+- ✅ Day 1 - HTML Basics
+- ✅ Day 2 - Lists, Links & Images
+- ✅ Day 3 - Semantic HTML, Div, Span & Entities
+- ✅ Day 4 - Tables & Forms
+- ⏳ Day 5 - In Progress
+
+---
+
+# 📂 Repository Structure
+
+```
+Web-Development-Journey/
+│
+├── Day-01/
+├── Day-02/
+├── Day-03/
+├── Day-04/
+├── Day-05/
+│
+└── README.md
+```
+
+---
+
+# 📚 Daily Routine
+
+Every day I follow this schedule:
+
+- 📖 Learn new concepts
+- 💻 Practice coding
+- 🛠️ Build mini projects
+- 📂 Push code to GitHub
+- ✍️ Improve coding skills
+
+---
+
+# 📌 Projects
+
+### HTML Projects
+
+- About Me Page
+- Resume Layout
+- Biography Page
+- Portfolio Website (HTML)
+- Developer Profile
+- Personal Blog
+- Student Marks Table
+- College Time Table
+- Registration Form
+- Feedback Form
+- College Management System
+- Challenge Project
+
+More projects will be added as I continue learning.
+
+---
+
+# 🎯 Current Progress
+
+| Technology | Progress |
+|------------|----------|
+| HTML | 🟢 50% |
+| CSS | ⚪ 0% |
+| JavaScript | ⚪ 0% |
+| React | ⚪ 0% |
+| Node.js | ⚪ 0% |
+| Express.js | ⚪ 0% |
+| MongoDB | ⚪ 0% |
+
+---
+
+# 📈 100 Days Web Development Challenge
+
+- ✅ Learn Every Day
+- ✅ Practice Every Day
+- ✅ Build Projects
+- ✅ Daily GitHub Commit
+- ✅ Improve Continuously
+
+---
+
+# 🌟 Future Topics
+
+- CSS
+- Flexbox
+- Grid
+- Responsive Design
+- JavaScript
+- DOM
+- ES6+
+- React.js
+- Node.js
+- Express.js
+- MongoDB
+- REST API
+- Authentication
+- Deployment
+
+---
+
+# 🤝 Connect With Me
+
+- GitHub: https://github.com/uchitkarpratik02
+
+(LinkedIn profile will be added soon.)
+
+---
+
+## ⭐ Repository Goal
+
+This repository is a record of my journey from **HTML beginner** to **MERN Stack Developer**. Every project represents my daily learning, practice, and growth.
+
+If you like this repository, don't forget to ⭐ Star it!
+
+---
+
+## 🚀 Keep Learning. Keep Building. Keep Growing.
