@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Management System</title>
+</head>
+<body>
+    <header>
+        <h1>Uchitkar College Of Enggineerin & Technolagy</h1>
+        <img src="collegelogo.png" alt="College Logo" height="50">
+         
+        <nav>
+            
+            <span>Home |</span>
+            <span>Departments |</span>
+            <span>Placement Cell |</span>
+            <span>Student Cell</span>
+        </nav>    
+    </header>
+    <hr>
+    <section>
+        <table border="black">
+            <caption>Student Section Table</caption>
+            <tr>
+                <th>Roll No</th>
+                <th>name</th>
+                <th>Branch</th>
+                <th>Degree</th>
+            </tr>
+            <tr>
+                <td>01</td>
+                <td>Pratik</td>
+                <td>Cse</td>
+                <td>B.tech</td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td>Prisma</td>
+                <td>Cse</td>
+                <td>B.tech</td>
+            </tr>
+            <tr>
+                <td>03</td>
+                <td>Flask</td>
+                <td>Cse</td>
+                <td>B.tech</td>
+            </tr>
+            <tr>
+                <td>04</td>
+                <td>Dajango</td>
+                <td>Cse</td>
+                <td>B.tech</td>
+            </tr>
+
+        </table>
+    </section>
+    <hr>
+    <section>
+        <h2>Student Registration Form</h2>
+        <form action="action.php">
+        <div>
+            <label for="sm">Full Name:</label>
+            <input type="text" id="sm" placeholder="Enter Your Name">
+        </div>
+        <br>
+        <div>
+            <label for="sm">Roll Number:</label>
+            <input type="number" id="rm" placeholder="Enter Your Roll Number">
+        </div>
+        <br>
+        <div>
+            <label for="ed">Email:</label>
+            <input type="email" id="ed" placeholder="Enter Your Email">
+        </div>
+        <br>
+        <div>
+            <label for="mn">Mobile Number:</label>
+            <input type="number" id="mn" placeholder="Enter Your Mobile No.">
+        </div>
+        <br>
+        <div>
+            <label>Gender: </label>
+            <input type="radio" name="sx" id="male" value="male">
+            <label for="male">male</label>
+            <input type="radio" name="sx" id="female" value="female">
+            <label for="female">female</label>
+        </div>
+        <br>
+        <div>
+            <label for="branch"> Branch:</label>
+            <select name="branch" id="branch">
+                <option>Select Your Branch</option>  
+                <option value="fd">CSE</option>      
+                <option value="bd">DS</option>
+                <option value="fl">AI&ML</option>
+                <option value="it">IT</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label>Skills: </label>
+            <input type="checkbox" name="ms" id="html">
+            <label for="ms">Mern Stack</label>
+            <input type="checkbox" name="mv" id="css">
+            <label for="mv">MVEN Stack</label>
+            <input type="checkbox" name="kf" id="javas">
+            <label for="kf">Kafka</label>
+            <input type="checkbox" name="pr" id="pr">
+            <label for="pr">Prisma</label>
+            <input type="checkbox" name="sk" id="angular">
+            <label for="angular">Angular</label>
+        </div>
+        <br>
+        <section>
+        <label for="addressmaimi">Address:</label>
+        <textarea id="addressmaimi">Fill Your Permenet Address</textarea>
+    </section>
+        <br>
+        <div>
+            <button type="Submit">Submit</button>
+        </div>
+        </form>
+    </section>
+    <hr>
+    <section>
+        <h2>College Information Section</h2>
+            <div>
+                <h3>About College</h3>
+                <p>The Uchitkar College of Engineering & Technology (UCET) is a premier dummy institution designed to serve as a comprehensive model for modern engineering education. Established within a simulated academic ecosystem, UCET is built on the foundational pillar of bridging theoretical science with hands-on industrial application. The college is envisioned as a forward-thinking hub that nurtures creative technical talent, fosters breakthrough innovations, and develops ethical leaders ready to tackle complex global challenges. By prioritizing a student-centric learning environment, this conceptual campus establishes a high standard for academic simulation projects.</p>
+            </div>
+            <div>
+                <h3>Course Offered</h3>
+                <ul><b> &CircleDot; Undergraduate Programmes (B.Tech / B.E.)</b>
+                    <li>Computer Science & Engineering (Focus: Cloud Computing & Devops)</li>
+                    <li>Artificial Intelligence & Data Science (Focus: Deep Learning & Big Data)
+                    <li>Electronics & Communication Engineering (Focus: IoT & 5G Networks)</li>
+                    <li>Mechanical & Smart Manufacturing (Focus: Robotics & Automation)</li>
+                    <li>Sustainable Civil Engineering (Focus: Green Building Architecture)</li>
+
+                </ul>
+                <ul><b> &CircleDot; Postgraduate Programmes (M.Tech / M.E.)</b>
+                    <li>Cyber Security & Digital Forensics</li>
+                    <li>Software Engineering & Product Management </li>
+                    <li> VLSIDesign & Embedded Systems</li>
+                    <li>Renewable Energy Technology</li>
+                </ul>
+                <ul><b> &CircleDot; Integrated & Doctoral Programmes</b>
+                    <li>Integrated & Doctoral ProgrammesIntegrated B.Tech + M.Tech (5-Year Dual Degree)</li>
+                    <li>Ph.D. in Engineering & Applied Sciences</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Facilities</h3>
+                <ol>
+                <Li>Smart ClassroomsInteractive learning spaces equipped with digital whiteboards, automated lecture-capture systems, and high-definition video conferencing tools for hybrid global seminars.</Li>
+                <Li>High-Performance Computing (HPC) LabA centralized supercomputing facility hosting advanced server clusters to support heavy computational tasks like deep learning, big data analytics, and 3D rendering.</Li>
+                <Li>Robotics & Automation CenterA specialized lab featuring industrial robotic arms, automated conveyor systems, and programmable logic controllers (PLCs) for hands-on mechatronics training.</Li>
+                <Li>Advanced IoT & 5G Simulation LabAn electronics prototyping workspace equipped with modern sensor networks, microcontrollers, and wireless development kits to build smart, connected devices.</Li>
+                <Li>Maker Space & Fabrication Lab (FabLab)A creative engineering workshop containing 3D printers, laser cutters, CNC machines, and woodworking tools where students can transform digital designs into physical prototypes.</Li>
+                <Li>Central Digital LibraryA high-tech library offering 24/7 access to millions of international research journals, e-books, and global databases, alongside private group-study pods.</Li>
+                <Li>Campus Startup IncubatorA dedicated business accelerator space providing student entrepreneurs with free co-working offices, meeting rooms, high-speed internet, and mock venture capitalist boardrooms.</Li>
+                <Li>Green Energy MicrogridAn on-campus solar and wind energy harvesting station that serves a dual purpose: powering parts of the college and acting as a live testing lab for renewable energy students.</Li>
+                <Li>Modern Student Housing & HostelsFully Wi-Fi-enabled residential blocks featuring single and twin-sharing rooms, common recreation lounges, fitness centers, and 24/7 medical assistance rooms.</Li>
+                <Li>Multi-Sport Complex & GymnasiumAn expansive sports facility featuring indoor courts for badminton and basketball, an Olympic-sized swimming pool, and outdoor fields for football and cricket tracking.</Li>
+                </ol>
+            </div>
+    </section>
+    <hr>
+    <section>
+        <footer>
+        &copy;<a href="https://www.instagram.com/pratik_uchitkar/">@pratik_uchitkar</a>
+        </footer>
+    </section>
+</body>
+</html>
