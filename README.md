@@ -46,7 +46,7 @@ Hi, I'm **Pratik Uchitkar**. This repository documents my complete journey of be
 - ✅ Day 2 - Lists, Links & Images
 - ✅ Day 3 - Semantic HTML, Div, Span & Entities
 - ✅ Day 4 - Tables & Forms
-- ⏳ Day 5 - In Progress
+- ✅ Day 4 - Css Basic
 
 ---
 
