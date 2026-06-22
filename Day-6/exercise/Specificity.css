@@ -1,0 +1,14 @@
+p {
+    color: rgba(0, 152, 216, 0.305);
+    background-color: rgb(148, 4, 4);
+
+}
+.text {
+    color: rgb(255, 0, 43);
+    background-color: rgb(69, 69, 64);
+
+}
+#para {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}

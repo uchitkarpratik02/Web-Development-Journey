@@ -1,0 +1,9 @@
+input[type="text"]{   
+    border-color: rgb(00, 255, 00);
+}
+input[type="email"]{   
+    border-color: rgb(0, 0, 255);
+}
+input[type="password"]{   
+    border-color: #ff0000;
+}

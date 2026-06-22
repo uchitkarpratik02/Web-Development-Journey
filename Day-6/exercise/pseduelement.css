@@ -1,0 +1,12 @@
+p::first-line{
+    color: blanchedalmond;
+    background-color: black;
+}
+p::selection{
+    background-color: rgb(255, 0, 0);
+}
+P::first-letter{
+    color: green;
+    background-color: white;
+
+}

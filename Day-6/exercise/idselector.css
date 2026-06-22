@@ -1,0 +1,16 @@
+#main-heading{
+    color: rgb(255, 255, 255);
+    background-color: #0064E0;
+    font-size: large;
+    font-family: 'Courier New';
+}
+.info{
+    color: rgba(110, 129, 0, 0.637);
+    background-color: #eaff02;
+    font-size: large;
+}
+p{
+   color: rgba(255, 36, 36, 0.637);
+    background-color: #09e6ff;
+    font-size: xx-large;
+}
