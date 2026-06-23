@@ -1,0 +1,10 @@
+*{
+    text-align: center;
+}
+div{
+    display: inline-block;
+    border:2px solid pink;
+    border-radius: 10px;
+    padding:20px;
+    margin:20px;
+}
