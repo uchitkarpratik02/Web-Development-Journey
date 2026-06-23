@@ -1,0 +1,17 @@
+*{
+    text-align: center;
+}
+button{
+    border-radius: 10px;
+    border: 2px;
+    border-color: rgb(255, 0, 43);
+    border-style: solid;
+}
+h1{
+    height: 100px;
+    width:500px;
+    background:yellow;
+    border : 5px solid aqua;
+    padding:20px;
+    margin:20px;
+}
