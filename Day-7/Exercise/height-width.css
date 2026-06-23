@@ -1,0 +1,16 @@
+.box{
+    height: 200px;
+    width: 150px;
+    background-color: pink;
+}
+.profile{
+    border:10px teal dashed;
+
+}
+.circle{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgb(109, 0, 0);
+      
+}

@@ -1,0 +1,15 @@
+p{
+    
+    border-color: rgb(255, 0, 43);
+    border-width: 2px;
+    border-style:solid;
+    padding: 10px 20px 30px 40px;
+    background-color: chartreuse;
+}
+h2{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    background-color: darkorange;
+}
