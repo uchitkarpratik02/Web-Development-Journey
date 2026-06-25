@@ -1,0 +1,30 @@
+#container{
+     height:500px;
+    width: 90%;
+    background-color: rgb(224, 187, 193);
+    margin: 10px auto;
+    border: 2px solid black; 
+    display:flex;  
+    
+}
+#item1{
+    background-color: brown;
+    height: 100px;
+    width: 250px;
+    border: 2px solid rgb(4, 255, 238); 
+    flex: 0 0 200px;    
+}
+#item2{
+    background-color: brown;
+    height: 100px;
+    width: 250px;
+    border: 2px solid rgb(4, 255, 238);
+    flex: 1 1 200px;     
+}
+#item3{
+    background-color: brown;
+    height: 100px;
+    width: 250px;
+    border: 2px solid rgb(4, 255, 238);
+    flex: 2 2 200px;     
+}
