@@ -1,0 +1,49 @@
+#menu{
+    display:none;
+}
+
+/* Hamburger Button */
+.menu-btn{
+    font-size:30px;
+    padding:15px;
+    cursor:pointer;
+    position:fixed;
+    top:20px;
+    left:20px;
+    z-index:2;
+}
+
+/* Sidebar */
+.sidebar{
+    position:fixed;
+    top:0;
+    left:0;
+
+    width:250px;
+    height:100vh;
+
+    background:#333;
+
+    display:flex;
+    flex-direction:column;
+
+    /* Initially hidden */
+    transform:translateX(-100%);
+
+    transition:transform 0.4s ease;
+}
+
+.sidebar a{
+    color:white;
+    text-decoration:none;
+    padding:20px;
+}
+
+.sidebar a:hover{
+    background:#444;
+}
+
+/* Checkbox checked → Sidebar bahar aa jayega */
+#menu:checked + .menu-btn + .sidebar{
+    transform:translateX(0);
+}
