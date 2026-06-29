@@ -1,0 +1,30 @@
+*{
+    margin: auto;
+    margin: auto;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+.login{
+    width: 250px;
+    height:250px;
+    background-color: rgb(99, 129, 119);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;   
+    box-shadow: 4px 4px 8px black; 
+}
+button{
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    box-shadow: 2px 2px 4px whitesmoke;
+}
+button:hover{
+    transform: scale(1.1);
+    box-shadow: 4px 4px 8px rgb(188, 78, 78);
+}
+h2{
+    display: inline;
+}
