@@ -1,0 +1,21 @@
+let students = [
+    {
+        name:"Pratik",
+        marks:95
+    },
+    {
+        name:"Rahul",
+        marks:80
+    },
+    {
+        name:"Aman",
+        marks:65
+    }
+];
+students.pop();
+students.push({
+        name:"Tylor",
+        marks:85
+    },
+);
+console.log(students)
