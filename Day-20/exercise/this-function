@@ -1,0 +1,10 @@
+const student = {
+    name: "Pratik",
+    age: 22,
+    city: "Nagpur",
+    greet() {
+        console.log(this.name,this.age,this.city);
+    }
+};
+
+student.greet();
