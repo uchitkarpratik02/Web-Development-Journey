@@ -1,0 +1,14 @@
+let par = document.querySelector("#parent");
+let child = document.createElement("span");
+child.innerText= "Zero Child";
+par.prepend(child);
+let lastchild = document.createElement("span");
+lastchild.innerText= "last Child";
+par.append(lastchild);
+let h3 = document.querySelector("h3");
+let fname = document.createElement("h2");
+fname.innerText= "Pratik";
+h3.before(fname);
+let sname = document.createElement("h2");
+sname.innerText= "Uchitkar";
+h3.after(sname);
