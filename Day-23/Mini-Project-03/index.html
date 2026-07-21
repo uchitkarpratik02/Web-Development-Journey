@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyboard Tester</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="main-display" id="mainBox">
+            <div id="key-display">Press Any Key</div>
+            <p class="instruction">Keyboard Event Tester Active</p>
+        </div>
+
+        <div class="stats-grid">
+            <div class="stat-card">
+                <span class="stat-label">Key Code</span>
+                <div class="stat-value" id="code-val">-</div>
+            </div>
+            <div class="stat-card">
+                <span class="stat-label">Total Pressed</span>
+                <div class="stat-value" id="total-val">0</div>
+            </div>
+            <div class="stat-card">
+                <span class="stat-label">Last Key</span>
+                <div class="stat-value" id="last-val">-</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
