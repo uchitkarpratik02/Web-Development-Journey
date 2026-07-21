@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration System</title>
+    <link class="canvas-stylesheet" rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main-container">
+        <div id="msgBox" class="success-banner">Registration successful! Profile generated below.</div>
+
+        <section class="card">
+            <h2>📋 Student Registration</h2>
+            <form id="regForm">
+                <div class="form-grid">
+                    
+                    <div class="field-group">
+                        <label for="fullName">Full Name *</label>
+                        <input type="text" id="fullName" placeholder="Enter your full name" required>
+                    </div>
+
+                    <div class="field-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" placeholder="email@example.com" required>
+                    </div>
+
+                    <div class="field-group">
+                        <label for="phone">Phone *</label>
+                        <input type="tel" id="phone" placeholder="9876543210" required>
+                    </div>
+
+                    <div class="field-group">
+                        <label for="age">Age *</label>
+                        <input type="number" id="age" min="15" max="100" required>
+                    </div>
+
+                    <div class="field-group">
+                        <label>Gender *</label>
+                        <div class="options-group">
+                            <label class="option-item"><input type="radio" name="gender" value="Male" required> Male</label>
+                            <label class="option-item"><input type="radio" name="gender" value="Female"> Female</label>
+                            <label class="option-item"><input type="radio" name="gender" value="Other"> Other</label>
+                        </div>
+                    </div>
+
+                    <div class="field-group">
+                        <label for="course">Course *</label>
+                        <select id="course" required>
+                            <option value="">Select a course</option>
+                            <option value="Full Stack Development">Full Stack Development</option>
+                            <option value="Data Science">Data Science</option>
+                            <option value="UI/UX Masterclass">UI/UX Masterclass</option>
+                            <option value="Cloud Computing">Cloud Computing</option>
+                        </select>
+                        <div id="courseBadge" class="course-badge"></div>
+                    </div>
+
+                    <div class="field-group">
+                        <label for="city">City *</label>
+                        <input type="text" id="city" placeholder="e.g. Nagpur" required>
+                    </div>
+
+                    <div class="field-group">
+                        <label>Skills</label>
+                        <div class="options-group">
+                            <label class="option-item"><input type="checkbox" name="skills" value="HTML"> HTML</label>
+                            <label class="option-item"><input type="checkbox" name="skills" value="CSS"> CSS</label>
+                            <label class="option-item"><input type="checkbox" name="skills" value="JS"> JS</label>
+                            <label class="option-item"><input type="checkbox" name="skills" value="React"> React</label>
+                        </div>
+                    </div>
+
+                    <div class="field-group full-width">
+                        <label for="about">About Yourself *</label>
+                        <div class="counter-container">
+                            <textarea id="about" rows="4" maxlength="250" placeholder="Tell us about yourself..." required></textarea>
+                            <span class="char-count" id="countDisplay">0 / 250</span>
+                        </div>
+                    </div>
+                </div>
+
+                <button type="submit" id="btnSubmit">Register Student</button>
+            </form>
+        </section>
+
+        <section id="profileSection" class="card profile-card">
+            <h2>🎓 Student Profile Card</h2>
+            <div class="profile-grid" id="profileOutput"></div>
+        </section>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
