@@ -1,0 +1,85 @@
+:root {
+    --bg-color: #ffffff;
+    --text-color: #333333;
+    --container-bg: #f4f4f4;
+    --accent-color: #007bff;
+}
+
+.dark-theme {
+    --bg-color: #121212;
+    --text-color: #e0e0e0;
+    --container-bg: #1e1e1e;
+    --accent-color: #bb86fc;
+}
+
+.blue-theme {
+    --bg-color: #0f172a;
+    --text-color: #f8fafc;
+    --container-bg: #1e3a8a;
+    --accent-color: #38bdf8;
+}
+
+.green-theme {
+    --bg-color: #064e3b;
+    --text-color: #ecfdf5;
+    --container-bg: #065f46;
+    --accent-color: #34d399;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+.container {
+    text-align: center;
+    background-color: var(--container-bg);
+    padding: 3rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    max-width: 450px;
+    width: 90%;
+    transition: background-color 0.4s ease;
+}
+
+h1 {
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-bottom: 2rem;
+    opacity: 0.8;
+}
+
+.button-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.btn {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    background-color: var(--accent-color);
+    color: white;
+    transition: transform 0.2s, opacity 0.2s;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+}
+
+.btn:active {
+    transform: translateY(0);
+}
