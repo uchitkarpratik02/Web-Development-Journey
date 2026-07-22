@@ -1,0 +1,135 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f6f9;
+    color: #333;
+}
+
+/* Navigation Bar */
+header {
+    background-color: #002147; /* Dark Oxford Blue */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    color: #ffb703; /* Gold accent */
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(rgba(0, 33, 71, 0.7), rgba(0, 33, 71, 0.7)), 
+                url('https://unsplash.com') no-repeat center center/cover;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-content h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #ffb703;
+    color: #002147;
+    padding: 12px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #e0a100;
+}
+
+/* Courses Section */
+.courses {
+    padding: 60px 10%;
+    text-align: center;
+}
+
+.courses h2 {
+    margin-bottom: 30px;
+    color: #002147;
+}
+
+.course-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.course-card {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    flex: 1;
+}
+
+.course-card h3 {
+    margin-bottom: 15px;
+    color: #002147;
+}
+
+/* Footer */
+footer {
+    background-color: #002147;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+/* Responsive Design for Mobile Devices */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .course-grid {
+        flex-direction: column;
+    }
+    .hero-content h1 {
+        font-size: 30px;
+    }
+}
