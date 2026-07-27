@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f3f4f6;
+    padding: 30px;
+}
+
+.main-container {
+    display: flex;
+    max-width: 1100px;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+.form-container, .preview-container {
+    flex: 1;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #1f2937;
+    border-bottom: 2px solid #e5e7eb;
+    padding-bottom: 8px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #4b5563;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    outline: none;
+}
+
+.form-group input:focus {
+    border-color: #2563eb;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.btn:hover {
+    background-color: #1d4ed8;
+}
+
+.btn-print {
+    margin-top: 20px;
+    background-color: #059669;
+}
+
+.btn-print:hover {
+    background-color: #047857;
+}
+
+.btn:disabled {
+    background-color: #9ca3af;
+    cursor: not-allowed;
+}
+
+.admit-card {
+    border: 2px dashed #1e3a8a;
+    padding: 20px;
+    background: #fff;
+    border-radius: 4px;
+    position: relative;
+}
+
+.card-header {
+    text-align: center;
+    border-bottom: 2px solid #1e3a8a;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.card-header h3 {
+    color: #1e3a8a;
+    letter-spacing: 1px;
+}
+
+.card-header p {
+    font-size: 12px;
+    color: #6b7280;
+}
+
+.card-body {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.student-details {
+    flex: 2;
+}
+
+.student-details p {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #374151;
+}
+
+.student-photo {
+    flex: 1;
+    text-align: right;
+}
+
+.student-photo img {
+    width: 120px;
+    height: 140px;
+    object-fit: cover;
+    border: 1px solid #9ca3af;
+    border-radius: 2px;
+}
+
+.card-footer {
+    margin-top: 20px;
+    border-top: 1px dashed #d1d5db;
+    padding-top: 15px;
+}
+
+.signature {
+    float: right;
+    text-align: center;
+    width: 180px;
+}
+
+.sig-line {
+    border-top: 1px solid #000;
+    margin-bottom: 5px;
+    height: 35px;
+}
+
+.signature p {
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.instructions {
+    clear: both;
+    font-size: 11px;
+    color: #6b7280;
+    padding-top: 15px;
+    line-height: 1.4;
+}
+
+@media print {
+    body {
+        background: none;
+        padding: 0;
+    }
+    .no-print, .form-container, .btn, h2 {
+        display: none !important;
+    }
+    .main-container {
+        display: block;
+    }
+    .preview-container {
+        box-shadow: none;
+        padding: 0;
+    }
+    .admit-card {
+        border: 2px solid #000;
+    }
+}

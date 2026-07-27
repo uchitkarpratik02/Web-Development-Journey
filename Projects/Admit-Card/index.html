@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admit Card Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container no-print">
+        <div class="form-container">
+            <h2>Enter Candidate Details</h2>
+            <form id="admitCardForm">
+                <div class="form-group">
+                    <label>Full Name</label>
+                    <input type="text" id="inputName" placeholder="Enter Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label>Roll Number / Reg No.</label>
+                    <input type="text" id="inputRoll" placeholder="Enter Your Roll No" required>
+                </div>
+                <div class="form-group">
+                    <label>Course / Exam Name</label>
+                    <input type="text" id="inputCourse" placeholder="B.Tech Computer Science" required>
+                </div>
+                <div class="form-group">
+                    <label>Exam Date & Time</label>
+                    <input type="text" id="inputDate" placeholder="October 12, 2026 - 10:00 AM" required>
+                </div>
+                <div class="form-group">
+                    <label>Exam Centre Address</label>
+                    <input type="text" id="inputCentre" placeholder="India" required>
+                </div>
+                <div class="form-group">
+                    <label>Upload Passport Photo</label>
+                    <input type="file" id="inputPhoto" accept="image/*" required>
+                </div>
+                <button type="submit" class="btn">Generate Admit Card</button>
+            </form>
+        </div>
+
+        <div class="preview-container">
+            <h2>Live Preview</h2>
+            <div id="printArea" class="admit-card">
+                <div class="card-header">
+                    <h3>NATIONAL TESTING ACADEMY</h3>
+                    <p>Official Examination Admit Card</p>
+                </div>
+                <div class="card-body">
+                    <div class="student-details">
+                        <p><strong>Candidate Name:</strong> <span id="cardName">---</span></p>
+                        <p><strong>Roll Number:</strong> <span id="cardRoll">---</span></p>
+                        <p><strong>Course:</strong> <span id="cardCourse">---</span></p>
+                        <p><strong>Exam Schedule:</strong> <span id="cardDate">---</span></p>
+                        <p><strong>Exam Centre:</strong> <span id="cardCentre">---</span></p>
+                    </div>
+                    <div class="student-photo">
+                        <img id="cardPhoto" src="https://placeholder.com" alt="Profile Photo">
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="signature">
+                        <div class="sig-line"></div>
+                        <p>Controller of Examinations</p>
+                    </div>
+                    <div class="instructions">
+                        <p><strong>Important:</strong> Please bring this card along with a valid Government ID card to the exam hall. Electronic gadgets are strictly prohibited.</p>
+                    </div>
+                </div>
+            </div>
+            <button id="printBtn" class="btn btn-print" disabled>Print / Save as PDF</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
