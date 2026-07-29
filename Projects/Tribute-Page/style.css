@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background-color: #f7f9fa;
+    color: #2d3748;
+    padding: 20px;
+}
+
+#main {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+#header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#title {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #1a202c;
+    letter-spacing: -1px;
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    color: #718096;
+    margin-top: 5px;
+}
+
+#img-div {
+    background-color: #f7fafc;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid #e2e8f0;
+}
+
+#image {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 6px;
+}
+
+#img-caption {
+    font-size: 0.9rem;
+    color: #4a5568;
+    margin-top: 12px;
+    font-style: italic;
+}
+
+.quote-container {
+    margin: 40px 0;
+    text-align: center;
+    border-left: 4px solid #dd6b20;
+    padding-left: 15px;
+}
+
+.quote {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #dd6b20;
+    font-style: italic;
+}
+
+.section-title {
+    font-size: 1.6rem;
+    color: #2d3748;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #edf2f7;
+    padding-bottom: 8px;
+}
+
+.timeline {
+    list-style-type: none;
+    max-width: 750px;
+    margin: 0 auto 40px auto;
+}
+
+.timeline li {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 15px;
+    font-size: 1.05rem;
+}
+
+.timeline li::before {
+    content: "•";
+    color: #dd6b20;
+    font-weight: bold;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 0;
+    top: -2px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #edf2f7;
+    font-size: 1rem;
+}
+
+#tribute-link {
+    color: #3182ce;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s ease-in-out;
+}
+
+#tribute-link:hover {
+    color: #2b6cb0;
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    #main {
+        padding: 20px;
+        margin: 10px auto;
+    }
+
+    #title {
+        font-size: 2rem;
+    }
+
+    .quote {
+        font-size: 1.1rem;
+    }
+}
