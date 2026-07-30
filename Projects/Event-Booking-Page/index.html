@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket Booking Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="booking-container">
+        <div class="booking-header">
+            <h2>Book Your Tickets</h2>
+            <p>Secure your seats instantly and enjoy your event.</p>
+        </div>
+
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Enter Your Name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="event">Select Event / Movie</label>
+                <select id="event" name="event" required>
+                    <option value="" disabled selected>Choose an option</option>
+                    <option value="movie-1">Roof Party</option>
+                    <option value="movie-2">Pool Party</option>
+                    <option value="movie-3">Roof & Pool Party</option>
+                </select>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="date">Preferred Date</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+                <div class="form-group">
+                    <label for="time">Show Time</label>
+                    <select id="time" name="time" required>
+                        <option value="" disabled selected>Select time</option>
+                        <option value="12:00">12:00 PM</option>
+                        <option value="15:30">03:30 PM</option>
+                        <option value="19:00">07:00 PM</option>
+                        <option value="22:30">10:30 PM</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="tickets">No. of Tickets</label>
+                    <input type="number" id="tickets" name="tickets" min="1" max="10" value="1" required>
+                </div>
+                <div class="form-group">
+                    <label for="tier">Ticket Type</label>
+                    <select id="tier" name="tier" required>
+                        <option value="standard">Standard</option>
+                        <option value="premium">Premium</option>
+                        <option value="vip">VIP</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="pricing-summary">
+                <span>Estimated Price:</span>
+                <strong>Calculated at Next Step</strong>
+            </div>
+
+            <button type="submit" class="submit-btn">Proceed to Payment</button>
+        </form>
+    </div>
+
+</body>
+</html>
