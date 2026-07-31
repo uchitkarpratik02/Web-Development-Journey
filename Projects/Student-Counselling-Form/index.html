@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Counselling Request Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Student Counselling Request</h2>
+        <p class="form-subtitle">Please fill out this form to schedule a session. Confidentiality assured.</p>
+        <form action="#" method="POST">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <div class="form-group-row">
+                    <div class="form-group"><label for="fullname">Full Name *</label><input type="text" id="fullname" name="fullname" required></div>
+                    <div class="form-group"><label for="studentid">Student ID *</label><input type="text" id="studentid" name="studentid" required></div>
+                </div>
+                <div class="form-group-row">
+                    <div class="form-group"><label for="email">Academic Email *</label><input type="email" id="email" name="email" required></div>
+                    <div class="form-group"><label for="phone">Phone Number *</label><input type="tel" id="phone" name="phone" required></div>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Session Details</legend>
+                <div class="form-group"><label for="reason">Reason for Seeking Counselling *</label>
+                    <select id="reason" name="reason" required>
+                        <option value="" disabled selected>Select...</option>
+                        <option value="academic">Academic / Course Difficulties</option>
+                        <option value="personal">Personal / Emotional Support</option>
+                        <option value="career">Career / Future Planning</option>
+                        <option value="other">Other Concerns</option>
+                    </select>
+                </div>
+                <div class="form-group"><label for="description">Briefly describe your situation (Optional)</label><textarea id="description" name="description" rows="4"></textarea></div>
+            </fieldset>
+            <div class="button-group"><button type="submit" class="btn-submit">Submit Request</button></div>
+        </form>
+    </div>
+</body>
+</html>
