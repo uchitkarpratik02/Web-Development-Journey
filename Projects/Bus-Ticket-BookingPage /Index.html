@@ -1,1 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Ticket Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <div class="container">
+        <div class="booking-box">
+            <h2>🚌 Bus Ticket Booking</h2>
+
+            <form>
+                <div class="input-group">
+                    <label>From</label>
+                    <input type="text" placeholder="Enter Departure City">
+                </div>
+
+                <div class="input-group">
+                    <label>To</label>
+                    <input type="text" placeholder="Enter Destination City">
+                </div>
+
+                <div class="input-group">
+                    <label>Date of Journey</label>
+                    <input type="date">
+                </div>
+
+                <div class="input-group">
+                    <label>Passengers</label>
+                    <input type="number" min="1" max="10" value="1">
+                </div>
+
+                <div class="input-group">
+                    <label>Bus Type</label>
+                    <select>
+                        <option>AC Sleeper</option>
+                        <option>AC Seater</option>
+                        <option>Non-AC Sleeper</option>
+                        <option>Non-AC Seater</option>
+                    </select>
+                </div>
+
+                <button type="submit">Search Buses</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
