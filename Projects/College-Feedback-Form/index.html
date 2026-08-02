@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Feedback Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="form-container">
+        <div class="form-header">
+            <h2>College Feedback Form</h2>
+            <p>Please share your academic and campus experience with us.</p>
+        </div>
+        
+        <form action="#" method="POST">
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="Pratik Uchitkar" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Student Email</label>
+                    <input type="email" id="email" name="email" placeholder="pratik@college.edu" required>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="department">Department</label>
+                    <select id="department" name="department" required>
+                        <option value="" disabled selected>Select Department</option>
+                        <option value="cs">Computer Science</option>
+                        <option value="eng">Engineering</option>
+                        <option value="bus">Business Administration</option>
+                        <option value="arts">Arts & Humanities</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="year">Current Year</label>
+                    <select id="year" name="year" required>
+                        <option value="" disabled selected>Select Year</option>
+                        <option value="1">1st Year</option>
+                        <option value="2">2nd Year</option>
+                        <option value="3">3rd Year</option>
+                        <option value="4">4th Year</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>How would you rate the overall teaching quality?</label>
+                <div class="radio-group">
+                    <label class="radio-label">
+                        <input type="radio" name="teaching" value="excellent" required> Excellent
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="teaching" value="good"> Good
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="teaching" value="average"> Average
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="teaching" value="poor"> Poor
+                    </label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>Which campus facilities are you satisfied with? (Select all)</label>
+                <div class="checkbox-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="facilities" value="library"> Library
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="facilities" value="labs"> Computer Labs
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="facilities" value="sports"> Sports Complex
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="facilities" value="cafeteria"> Cafeteria
+                    </label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="comments">Suggestions for Improvement</label>
+                <textarea id="comments" name="comments" rows="4" placeholder="Type your feedback here..."></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Submit Feedback</button>
+        </form>
+    </div>    
+</body>
+</html>
