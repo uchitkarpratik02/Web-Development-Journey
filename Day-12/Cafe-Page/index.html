@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/image.png" >
+    <title>Take a Bite Cafe - Order Online</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <div class="logo">Take A Bite <span>Cafe</span></div>
+        </div>
+    </header>
+
+    <div class="main-container">
+        
+        <main class="menu-section">
+            <h2>Our Menu</h2>
+            <div class="grid-menu">
+                
+                <div class="food-card">
+                    <div class="food-img-placeholder"><img src="images/images.jpeg" alt="🍔 Burger Image" width="288.8px" height="150px"></div>
+                    <div class="food-info">
+                        <h3 class="food-title">Aloo Tikki Burger</h3>
+                        <p class="food-desc">Crispy potato patty filled with local spices, sweet tomatoes, onions, and creamy mayo.</p>
+                        <div class="food-footer">
+                            <span class="food-price">₹89</span>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="food-card">
+                    <div class="food-img-placeholder"><img src="images/Pizza-3007395.jpg" alt="🍕 Pizza Image" width="288.8px" height="150px"></div>
+                    <div class="food-info">
+                        <h3 class="food-title">Paneer Tikka Pizza</h3>
+                        <p class="food-desc">Topped with marinated paneer cubes, capsicum, onions, and premium mozzarella.</p>
+                        <div class="food-footer">
+                            <span class="food-price">₹249</span>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="food-card">
+                    <div class="food-img-placeholder"><img src="images/sandwith.jpeg" alt="🥪 Sandwich Image" width="288.8px" height="150px"></div>
+                    <div class="food-info">
+                        <h3 class="food-title">Bombay Masala Toast</h3>
+                        <p class="food-desc">Classic street-style sandwich loaded with spiced potatoes and mint chutney.</p>
+                        <div class="food-footer">
+                            <span class="food-price">₹119</span>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="food-card">
+                    <div class="food-img-placeholder"><img src="images/coffee.jpeg" alt="☕ Coffee Image" width="288.8px" height="150px"></div>
+                    <div class="food-info">
+                        <h3 class="food-title">Cold Coffee</h3>
+                        <p class="food-desc">Rich, frothy brewed coffee blended with chilled milk and premium vanilla ice cream.</p>
+                        <div class="food-footer">
+                            <span class="food-price">₹120</span>
+                            <button class="add-btn">Add</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+
+        <aside class="order-sidebar">
+            <h3 class="sidebar-title">Place Your Order</h3>
+            <form action="#" method="POST" onsubmit="event.preventDefault(); alert('Order received! Thank you for ordering from Take a Bite Cafe.');">
+                
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" required placeholder="Aarav Sharma">
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" required pattern="[6789][0-9]{9}" placeholder="9876543210" title="Please enter a valid 10-digit Indian phone number">
+                </div>
+
+                <div class="form-group">
+                    <label for="address">Delivery Address</label>
+                    <textarea id="address" rows="3" required placeholder="Flat/House No., Building Name, Street, Landmark"></textarea>
+                </div>
+
+                <div class="summary-item">
+                    <span>Selected Items:</span>
+                    <span>Mock Overview</span>
+                </div>
+                <div class="summary-item">
+                    <span>Delivery Charges:</span>
+                    <span>₹30</span>
+                </div>
+                <div class="summary-item total-row">
+                    <span>Grand Total:</span>
+                    <span>₹30</span>
+                </div>
+
+                <button type="submit" class="submit-order-btn">Confirm Order</button>
+            </form>
+        </aside>
+
+    </div>
+
+</body>
+</html>
