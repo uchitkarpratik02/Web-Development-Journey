@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, #FF9933 30%, #FFFFFF 30%, #FFFFFF 70%, #138808 70%);
+    padding: 100px 20px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    position: relative;
+}
+
+header::before {
+    content: "☸";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 180px;
+    color: rgba(0, 0, 128, 0.04);
+    pointer-events: none;
+}
+
+header h1 {
+    font-size: 3.5rem;
+    color: #000080;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 2px rgba(255,255,255,0.8);
+}
+
+header p {
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: 500;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+.pillars {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    border-top: 5px solid #000080;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card.saffron { border-top-color: #FF9933; }
+.card.white { border-top-color: #000080; }
+.card.green { border-top-color: #138808; }
+
+.card h3 {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    color: #222;
+}
+
+.quote-box {
+    background-color: #000080;
+    color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    text-align: center;
+    margin: 60px 0;
+    position: relative;
+}
+
+.quote-box p {
+    font-style: italic;
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
+
+.quote-box span {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #FF9933;
+}
+
+footer {
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 60px;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}
+
+footer span {
+    color: #FF9933;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    header h1 { font-size: 2.5rem; }
+    header p { font-size: 1.2rem; }
+    header { padding: 60px 20px; }
+}
