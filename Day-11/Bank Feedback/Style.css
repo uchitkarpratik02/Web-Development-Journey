@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: #f1f5f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.feedback-container {
+    width: 100%;
+    max-width: 600px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+    overflow: hidden;
+}
+
+.header {
+    background: #0b3d91;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.bank-logo {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.header h1 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.header p {
+    font-size: 15px;
+    opacity: 0.9;
+}
+
+form {
+    padding: 30px;
+}
+
+.form-group {
+    margin-bottom: 22px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+    transition: 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+select:focus,
+textarea:focus {
+    border-color: #0b3d91;
+    box-shadow: 0 0 0 3px rgba(11, 61, 145, 0.1);
+}
+
+textarea {
+    resize: vertical;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.rating label {
+    margin: 0;
+}
+
+.rating input {
+    display: none;
+}
+
+.rating span {
+    width: 55px;
+    height: 55px;
+    border: 2px solid #d1d5db;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    color: #555;
+    transition: 0.3s;
+}
+
+.rating input:checked + span {
+    background: #0b3d91;
+    border-color: #0b3d91;
+    color: white;
+}
+
+.rating span:hover {
+    background: #e8f0ff;
+    border-color: #0b3d91;
+}
+
+.rating-labels {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #777;
+    margin-top: 8px;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 25px;
+}
+
+.checkbox input {
+    width: 16px;
+    height: 16px;
+}
+
+.checkbox label {
+    font-size: 13px;
+    color: #555;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    background: #0b3d91;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #082f70;
+    transform: translateY(-1px);
+}
+
+.footer {
+    text-align: center;
+    padding: 18px;
+    background: #f8fafc;
+    color: #777;
+    font-size: 13px;
+}
+
+/* Mobile Responsive */
+
+@media (max-width: 500px) {
+
+    body {
+        padding: 15px;
+    }
+
+    form {
+        padding: 22px;
+    }
+
+    .rating span {
+        width: 45px;
+        height: 45px;
+    }
+
+    .header h1 {
+        font-size: 24px;
+    }
+}
