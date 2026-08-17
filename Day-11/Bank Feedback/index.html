@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Feedback</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="feedback-container">
+
+        <div class="header">
+            <div class="bank-logo">🏦</div>
+            <h1>Bank Feedback</h1>
+            <p>We value your feedback</p>
+        </div>
+
+        <form>
+
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" placeholder="Enter your name">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" placeholder="Enter your email">
+            </div>
+
+            <div class="form-group">
+                <label>How satisfied are you with our service?</label>
+
+                <div class="rating">
+                    <label>
+                        <input type="radio" name="rating" value="1">
+                        <span>1</span>
+                    </label>
+
+                    <label>
+                        <input type="radio" name="rating" value="2">
+                        <span>2</span>
+                    </label>
+
+                    <label>
+                        <input type="radio" name="rating" value="3">
+                        <span>3</span>
+                    </label>
+
+                    <label>
+                        <input type="radio" name="rating" value="4">
+                        <span>4</span>
+                    </label>
+
+                    <label>
+                        <input type="radio" name="rating" value="5">
+                        <span>5</span>
+                    </label>
+                </div>
+
+                <div class="rating-labels">
+                    <span>Very Poor</span>
+                    <span>Excellent</span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="category">Feedback Category</label>
+
+                <select id="category">
+                    <option value="">Select category</option>
+                    <option>Customer Service</option>
+                    <option>Online Banking</option>
+                    <option>ATM Service</option>
+                    <option>Loan Service</option>
+                    <option>Account Service</option>
+                    <option>Other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Your Feedback</label>
+
+                <textarea
+                    id="message"
+                    rows="5"
+                    placeholder="Write your feedback here..."></textarea>
+            </div>
+
+            <div class="checkbox">
+                <input type="checkbox" id="contact">
+                <label for="contact">
+                    I agree to be contacted regarding my feedback.
+                </label>
+            </div>
+
+            <button type="submit">Submit Feedback</button>
+
+        </form>
+
+        <div class="footer">
+            <p>Thank you for helping us improve our services.</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
