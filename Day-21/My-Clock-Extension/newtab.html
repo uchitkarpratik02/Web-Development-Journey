@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratik's Ultra-Modern Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+  <span class="sun-icon">☀️</span>
+  <span class="moon-icon">🌙</span>
+</button>
+
+    <div class="clock-container">
+        <div class="grid-overlay"></div>
+
+        <div class="top-bar">
+            <span class="my-name">PRATIK UCHITKAR</span>
+            <span class="day-number">WEB DEVELOPMENT JOURNEY : DAY-21</span>
+        </div>
+
+        <div class="main-time-section">
+            <div class="time-wrapper">
+                <div class="digital-time">
+                    <span id="hours">00</span><span class="colon">:</span><span id="minutes">00</span><span class="colon">:</span><span id="seconds">00</span>
+                </div>
+                <div id="ampm" class="ampm-indicator">AM</div>
+            </div>
+
+            <div class="progress-bar-container">
+                <div id="progress-bar" class="progress-bar"></div>
+            </div>
+        </div>
+        
+        
+
+        <div class="info-grid">
+            <div class="info-item">
+                <span class="label">DAY</span>
+                <span id="day" class="value">---</span>
+            </div>
+            <div class="info-item">
+                <span class="label">CITY</span>
+                <span id="city" class="value">NAGPUR</span>
+            </div>
+            <div class="info-item">
+                <span class="label">DATE</span>
+                <span id="date" class="value">--/--/----</span>
+            </div>
+            <div class="info-item">
+                <span class="label">TEMP</span>
+                <span id="temp" class="value">--°C</span>
+            </div>
+            <div class="info-item">
+                <span class="label">SUNRISE</span>
+                <span id="sunrise" class="value">--:--</span>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
