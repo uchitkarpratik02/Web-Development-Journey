@@ -1,0 +1,154 @@
+/* ==========================
+        CSS VARIABLES
+========================== */
+
+:root{
+    --background:#F8FAFC;
+    --white:#FFFFFF;
+    --primary:#2563EB;
+    --secondary:#DBEAFE;
+    --accent:#F97316;
+    --text:#1F2937;
+}
+
+
+/* ==========================
+        GLOBAL
+========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:var(--background);
+    color:var(--text);
+}
+
+
+/* ==========================
+        NAVBAR
+========================== */
+
+nav{
+    background:var(--white);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 50px;
+}
+
+nav h2{
+    color:var(--primary);
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:25px;
+}
+
+nav a{
+    text-decoration:none;
+    color:var(--text);
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:var(--primary);
+}
+
+
+/* ==========================
+        HERO
+========================== */
+
+.hero{
+    text-align:center;
+    padding:80px 20px;
+}
+
+.hero h1{
+    color:var(--primary);
+    font-size:45px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    max-width:600px;
+    margin:auto;
+    margin-bottom:30px;
+    line-height:1.8;
+}
+
+
+/* ==========================
+        BUTTONS
+========================== */
+
+button{
+    padding:12px 25px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    margin:10px;
+    font-size:16px;
+}
+
+.primary-btn{
+    background:var(--primary);
+    color:white;
+}
+
+.primary-btn:hover{
+    background:#1D4ED8;
+}
+
+.accent-btn{
+    background:var(--accent);
+    color:white;
+}
+
+.accent-btn:hover{
+    background:#EA580C;
+}
+
+
+/* ==========================
+        CARDS
+========================== */
+
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    padding:50px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:var(--white);
+    width:250px;
+    padding:25px;
+    border-radius:10px;
+    border:2px solid var(--secondary);
+    text-align:center;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    border-color:var(--primary);
+}
+
+.card h3{
+    color:var(--primary);
+    margin-bottom:15px;
+}
+
+.card p{
+    color:var(--text);
+}
