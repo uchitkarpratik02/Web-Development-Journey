@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #fff8f0;
+    color: #4a2020;
+}
+
+header {
+    background: #8b1e3f;
+    color: white;
+    padding: 20px 8%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    font-size: 25px;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    min-height: 85vh;
+    padding: 60px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(135deg, #fff1df, #ffd6df);
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.festival {
+    color: #b12b50;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.hero h1 {
+    font-size: 60px;
+    color: #8b1e3f;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    line-height: 1.7;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 14px 30px;
+    background: #8b1e3f;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.rakhi {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: radial-gradient(circle, #ffd700 10%, #e63950 11%, #e63950 25%, #ffd700 26%, #ffd700 40%, #8b1e3f 41%, #8b1e3f 55%, #ffd700 56%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.rakhi-center {
+    width: 80px;
+    height: 80px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: #8b1e3f;
+    font-weight: bold;
+}
+
+.thread {
+    position: absolute;
+    width: 130px;
+    height: 8px;
+    background: #8b1e3f;
+    top: 121px;
+    z-index: -1;
+}
+
+.left {
+    right: 190px;
+}
+
+.right {
+    left: 190px;
+}
+
+.about {
+    padding: 80px 8%;
+    text-align: center;
+}
+
+.about h2,
+.message h2 {
+    font-size: 38px;
+    color: #8b1e3f;
+    margin-bottom: 20px;
+}
+
+.about > p {
+    max-width: 800px;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 45px;
+}
+
+.card {
+    width: 280px;
+    padding: 30px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #b12b50;
+}
+
+.card p {
+    line-height: 1.6;
+}
+
+.message {
+    padding: 80px 8%;
+    background: #8b1e3f;
+    color: white;
+    text-align: center;
+}
+
+.message h2 {
+    color: #ffd700;
+}
+
+.message p {
+    max-width: 700px;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.message h3 {
+    margin-top: 30px;
+    font-size: 28px;
+    color: #ffd700;
+}
+
+footer {
+    background: #541328;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav ul {
+        gap: 15px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        gap: 50px;
+    }
+
+    .hero h1 {
+        font-size: 42px;
+    }
+
+    .hero p {
+        font-size: 17px;
+    }
+
+    .rakhi {
+        width: 190px;
+        height: 190px;
+    }
+
+    .rakhi-center {
+        width: 65px;
+        height: 65px;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 350px;
+    }
+}
